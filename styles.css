@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    background-color:hsl(235, 66%, 52%);
+    list-style: none;
+    text-decoration: none;
+
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav {
+    width: 60%;
+}
+ul {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+li {
+    list-style: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 30px;
+    transition: .5s;
+    font-family: "Black Ops One", system-ui;
+}
+li:hover {
+    color: rgb(30, 255, 0);
+}
+#logo {
+    width: 100px;
+    height: auto;
+    
+}
+#banner {
+    background-image: url(./imagem/Banner\ em\ formato\ horizontal\ com\ estilo\ gradiente\ profissional\ em\ amarelo.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    position: absolute;
+
+}
+.actor-cards-container {
+width: 100%;
+display: flex;
+justify-content: center;
+margin-top: 50%;
+}
+
+.cards-current {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 40px;
+}
+
+.card {
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 50px 50px;
+    color: aliceblue;
+    font-size: 30px;
+    font-family: Black Ops One", system-ui;
+}
+.banner-1 {
+    background-image: url(./imagem/2.png);
+}
+
+.banner-2 {
+    background-image: url(./imagem/3.webp);
+    
+}
+
+.banner-3 {
+    background-image: url(./imagem/3.webp);
+    
+}
+
+.banner-4 {
+    background-image: url(./imagem/3.webp);
+   
+}
