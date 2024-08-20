@@ -51,13 +51,14 @@ li:hover {
 width: 100%;
 display: flex;
 justify-content: center;
-margin-top: 50%;
+margin-top: 30%;
 }
 
 .cards-current {
     width: 90%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    row-gap: 20px;
     column-gap: 40px;
 }
 
@@ -66,33 +67,37 @@ margin-top: 50%;
     height: 500px;
     background-size: cover;
     background-position: 50% 50%;
-    border-radius: 20px;
+    border-radius: 5%;
     cursor: pointer;
     transition: 1s;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    padding: 0 0 50px 50px;
-    color: aliceblue;
+    padding: 0 0 20px 10px;
+    color: #fff;
     font-size: 30px;
-    font-family: Black Ops One", system-ui;
+    font-family: "Black Ops One", system-ui;
+    
+}
+.card:hover{
+transform: scale(1.02);
 }
 .banner-1 {
-    background-image: url(./imagem/2.png);
+    background-image: url("https://i.pinimg.com/736x/f4/c0/e5/f4c0e529a7a191e4186888411f4630ce.jpg");
 }
 
 .banner-2 {
-    background-image: url(./imagem/3.webp);
+    background-image: url("https://m.media-amazon.com/images/I/41wzqSYSvuL.jpg");
     
 }
 
 .banner-3 {
-    background-image: url(./imagem/3.webp);
+    background-image: url("https://cdn.tecmasters.com.br/wp-content/uploads/2022/06/Como-remover-discretamente-seguidores-no-Instagram-Passo-1-496x1024.jpg");
     
 }
 
 .banner-4 {
-    background-image: url(./imagem/3.webp);
-    width: 100%;
+    background-image: url("https://trinteimudei.com/wp-content/uploads/2021/04/como-ganhar-seguidores-no-Instagram-683x1024.png");
+    
    
 }
